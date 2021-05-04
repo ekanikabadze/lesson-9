@@ -64,15 +64,16 @@ margin-left: 100px;
 	justify-content: center;
 	align-items: center;
   }
-.right-block{width: 45%;
+.right-block{width: 48%;
 background-color: gold;
 display: flex;
 flex-direction: column;
 }
-.image-smoll{width: 260px}
+/* .image-smoll{width: 260px} */
 .image-smoll .image-r-f {width: 100%;}
 .r-bottom{width: 100%;
-background-color: indigo;}
+background-color: indigo;
+margin:10px auto;}
 .r-f-line{display: flex;
 flex-direction: row;
 justify-content: space-between;}
