@@ -48,8 +48,7 @@ margin-left: 100px;
 .text1{
 	font-family: 'Lato';
 	font-size: 50px;
-	/* width: 40%; */
-}
+	}
 .text2{
 	font-family: 'Lato';
 	font-size: 16px;
@@ -64,17 +63,51 @@ margin-left: 100px;
 	justify-content: center;
 	align-items: center;
   }
-.right-block{width: 48%;
-background-color: gold;
+.right-block{width: 50%;
 display: flex;
 flex-direction: column;
 }
-/* .image-smoll{width: 260px} */
-.image-smoll .image-r-f {width: 100%;}
+.imige-smoll{width: 48%;
+}
+.image-r-f{width: 100%;}
 .r-bottom{width: 100%;
-background-color: indigo;
 margin:10px auto;}
 .r-f-line{display: flex;
 flex-direction: row;
 justify-content: space-between;}
+/* section2 */
+.cont2{width: 100%;
+padding: 20px;
+background-image: url(/images/group13.png);
+background-size: cover;}
+.insaid-cont {display: flex;
+width: 100%;
+padding: 20px;
+justify-content: space-between;
+}
+.smoll-cont{display: flex;
+flex-direction: column;
+margin: 20px auto;
+width: 22%;
+background-color: azure;
+padding: 20px;
+align-items: center;}
+.icon{display: flex;
+width:40px;
+height: 40px;
+background-color: blue;
+margin-top: 10px;
+margin-bottom: 20px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;}
+.cont2-title{font-size: 36px;
+padding: 20px;
+color:whitesmoke;
+width: 25%;
+}
+.icon img{width: 20px;
+height: 20px;}
+.icon-text{text-align: center;
+margin-top: 10px;}
   
